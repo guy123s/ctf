@@ -1,0 +1,5 @@
+textual>=8.0
+rich>=13.0
+pyfiglet>=1.0
+pytest>=8.0
+pytest-asyncio>=1.0
