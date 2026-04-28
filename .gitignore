@@ -1,0 +1,14 @@
+# Compiled binaries
+/test
+/self_check
+/testing
+/tests/test[0-9]*
+/tests/test[0-9][0-9]
+*.out
+*.o
+*.a
+*.so
+
+# Temporary files
+*.tmp
+tmp.txt
