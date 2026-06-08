@@ -20,7 +20,7 @@ SCORED_BINS = $(foreach n,$(SCORED_TESTS),$(BUILD_TESTS_DIR)/test$(n))
 # All targets
 ALL_BINS = $(SMOKE_BINS) $(SCORED_BINS)
 
-.PHONY: all smoke tests score run check clean
+.PHONY: all smoke tests score run check clean help self_check
 
 # Default target
 all: smoke tests
